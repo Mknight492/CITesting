@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIServer", "CIServer\CIServer.csproj", "{931CB23F-2337-4F7F-8BBA-9CDE78D59123}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CB9FE58D-37BF-4F1A-A48D-C49D28AF5F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTests", "..\DemoTests\DemoTests.csproj", "{0F8A6DEA-C363-43CD-8220-054CE9051809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{931CB23F-2337-4F7F-8BBA-9CDE78D59123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{931CB23F-2337-4F7F-8BBA-9CDE78D59123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{931CB23F-2337-4F7F-8BBA-9CDE78D59123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8A6DEA-C363-43CD-8220-054CE9051809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8A6DEA-C363-43CD-8220-054CE9051809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8A6DEA-C363-43CD-8220-054CE9051809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8A6DEA-C363-43CD-8220-054CE9051809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F8A6DEA-C363-43CD-8220-054CE9051809} = {CB9FE58D-37BF-4F1A-A48D-C49D28AF5F15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E02A4FB-EEF6-48AD-B5CC-ED653B0A065A}
